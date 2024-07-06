@@ -1,12 +1,6 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { Redirect } from "expo-router";
 
-const PageScreen = () => {
-    return (
-        <View>
-            <Text>Instagram Clone</Text>
-        </View>
-    );
-};
-
-export default PageScreen;
+export default function Page() {
+    return <Redirect href="/(tabs)" />;
+}

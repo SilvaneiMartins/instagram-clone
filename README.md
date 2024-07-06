@@ -2,6 +2,10 @@
     INSTAGRAM CLONE
 </h3>
 
+## Informação do projeto
+
+Você vai acompanhar desde de o inicio até postar e salvar as informações em banco de dados utilizando as seguintes ferramenta: Expo para criar a UI, lidar com funcionalidades de backend com Supabase e otimizar o armazenamento de mídia com Cloudinary e também mutias outras ferramentas e bibliotecas como React Native, Expo, Expo Router, Nativewind, Supabase e etc.
+
 ## Tarefa do Projeto Mobile
 
     - [x] Instalar expo router
