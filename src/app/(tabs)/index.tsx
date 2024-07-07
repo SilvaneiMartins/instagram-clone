@@ -9,11 +9,14 @@ const HomeScreen = () => {
         <View className="bg-white">
             <FlatList
                 data={posts}
+                className="items-center bg-slate-400"
                 renderItem={({ item }) => <PostListItem post={item} />}
                 keyExtractor={(item) => item.id.toString()}
                 showsVerticalScrollIndicator={false}
                 contentContainerStyle={{
                     gap: 10,
+                    maxWidth: 512,
+                    width: "100%",
                 }}
             />
         </View>
