@@ -26,7 +26,13 @@
             "bundler": "metro"
         },
         "plugins": [
-            "expo-router"
+            "expo-router",
+            [
+                "expo-image-picker",
+                {
+                    "photosPermission": "O aplicativo precisa acessar suas fotos para compartilhe com seus amigos."
+                }
+            ]
         ]
     }
 }
